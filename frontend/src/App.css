@@ -1,0 +1,29 @@
+/* Vintive Studio Custom Styles */
+.App {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171717;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c65b0;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a7dd1;
+}
+
+/* Selection color */
+::selection {
+  background-color: #2c65b0;
+  color: white;
+}
